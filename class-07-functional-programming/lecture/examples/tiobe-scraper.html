@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TIOBE Scraper</title>
+  <!-- <link href="http://thomasf.github.io/solarized-css/solarized-dark.min.css" rel="stylesheet"></link> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <style>
+    .code-area {
+      width: 100%
+    }
+
+    .code-editor {
+      height: 350px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h1>TIOBE scraper</h1>
+      <p>
+        Which programming languages have increased in rank recently?
+        We can find this data on the TIOBE index here:
+        <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">
+          http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+        </a>
+      </p>
+      <p>
+        I've scraped the page and saved just the table rows for you in tiobe.html
+        This avoids a Cross Origin Resource sharing issue where you are not allowed to
+        $.get pages that are not on your domain
+      </p>
+    </div>
+    <div class="row">
+      <div class="eight columns">
+        <div>
+          <label for="input">Input <small>&mdash; This will be stored in <code>var data</code></small></label>
+          <textarea name="input" rows="20" cols="40" class="code-area"></textarea>
+        </div>
+        <div>
+          <label for="code">Code</label>
+          <div id="code" class="code-editor">
+          </div>
+        </div>
+        <div>
+          <label for="output">Output</label>
+          <textarea name="output" rows="20" cols="40" class="code-area"></textarea>
+        </div>
+        <div>
+        </div>
+      </div>
+      <div class="four columns">
+        <button id="prefill">fill input with tiobe.html</button>
+        <div class="step-buttons"></div>
+        <input name="submit" type="submit" value="Process Data"></input>
+        <button id="clear">Clear output</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.2/ace.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>
+  <script src="tiobe-scraper.js" charset="utf-8"></script>
+</body>
+</html>

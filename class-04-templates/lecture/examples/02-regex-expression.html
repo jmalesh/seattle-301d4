@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Minimal jQuery Template with Regex</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js" charset="utf-8"></script>
+
+  <script id="hello" type="text/template">
+    Hello {{0}}, my name is {{1}}, and I like {{2}}
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    var compile = function(template, expressions) {
+      return appTemplate.replace(/{{(\d+)}}/g, swapper);
+      // where
+      function swapper(match, number) {
+        return expressions[number];
+      };
+    };
+    var appTemplate = $('#hello').html()
+    var compiledTemplate = compile(appTemplate, ["Students", "Ivan", "Apples"]);
+    $('#app').append(compiledTemplate);
+  </script>
+
+</body>
+</html>
