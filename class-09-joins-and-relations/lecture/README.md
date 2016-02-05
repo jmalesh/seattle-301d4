@@ -25,3 +25,5 @@ Tables with composite keys cannot have attributes that depend on only part of th
 Non-key attributes are dependent upon the whole key.
 
 Non-key attributes are dependent on "nothing but the key".
+
+## Class Videos
