@@ -36,7 +36,7 @@ Here is a recommended workflow:
 
 Now find those `TODO` items in the code, and tackle one of them.
 
-1. Driver: In your terminal, change directory into the `pair-assignemnt` folder.
+1. Driver: In your terminal, change directory into the `pair-assignment` folder.
 1. Copy the starter code folder to a new folder named for your pair:
  - `cp -r starter-code/ sabrina-chris/`
 1. Now cd into that new folder. This is where you will write code.
