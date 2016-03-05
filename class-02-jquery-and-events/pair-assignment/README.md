@@ -27,8 +27,8 @@ Follow these steps carefully!
 Here is a recommended workflow, if you haven't already set up a fork to work from:
 
 1. Driver: fork this repository to your own account, if you haven't already. This original repo (the one at `github.com/codefellows`) is the "upstream" repo.
-1. Your **forked repo** on GitHub will be your "origin" repo. Clone YOUR FORK to your local development environment.
-1. Use this command, so that your local repo knows about the upstream repo:
+1. Your **forked repo** on GitHub will be your "origin" repo. Clone YOUR FORK to your local development environment (we suggest cloning into a new directory named "301" - `mkdir 301/` - which will be your parent 301 directory and set you up for organizational success!).
+1. Use this command in the root of your forked repo, so that your local repo knows about the upstream repo:
   - `git remote add upstream git-url-here`
   - (replace `git-url-here` with the proper git-URL of the upstream repo).
 1. Now, you can sync changes from the upstream repo to your local master branch whenever you need them (do this at least daily):
@@ -42,7 +42,7 @@ Now duplicate the starter code, find those `TODO` items in the source code, and 
 1. Ensure you are under the `class-02` folder.
 1. Copy the starter code folder to a new folder named for your pair:
  - `cp -r starter-code/ natalie-patrick/`
-1. Now cd into that new folder. This is where you will write code.
+1. Now cd into that new pairs name folder. This is where you will write code.
 1. Type `atom .` to open the new folder (your current directory) as a project in Atom.
 1. Take some time to read through the code. There is lots there, and it's dense. Do some code review together.
 1. Use the Atom "Find in Project" feature to locate all the TODO items.
@@ -50,7 +50,7 @@ Now duplicate the starter code, find those `TODO` items in the source code, and 
 
 ## Switch roles
 1. Driver: On GitHub, Add your navigator as a collaborator to your origin repo.
-1. Navigator: Do NOT fork this upstream repo! You can directly clone the driver's fork, to your own local dev environment. Since you are a collaborator, you can `pull` and `push` changes.
+1. Navigator: Do NOT fork this upstream repo! You can directly clone the driver's fork, to your own local dev environment. Since you are a collaborator, you can `pull` and `push` changes to and from `origin`.
 1. Switch roles: The navigator now becomes the driver. The new driver now opens the code in Atom (see above), and has hands on the keyboard to work through the next one or two TODO items.
 
 ## Submit your assignment
@@ -62,6 +62,6 @@ When you are finished with your work (or if time runs out), then submit your wor
 1. Create a new PR.
 1. Carefully review the PR, and ensure the code is going back to the upstream repo.
 1. Write a good descriptive summary of your changes:
-  - Be sure to include how much time you spent on it.
+  - Be sure to include how much time you spent on it, and who you worked with.
   - Briefly reflect on and summarize your process.
 1. When you create the PR, it will have a unique URL. Copy this link, and paste it into the assignment submission form in Canvas. Both the driver and the navigator will submit the same PR link.
