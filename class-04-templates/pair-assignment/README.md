@@ -27,6 +27,6 @@ Find those `TODO` items in the codebase, and tackle each one of them.
 
 ## Submit your assignment
 
-When you are finished with your work (or if time runs out), then submit your work. To do this, you'll create a PR to the upstream repo with your changes, and submit that PR link in Canvas.
+When you are finished with your work (or if time runs out), then submit your work. To do this, you'll create a PR to the upstream repo with your changes, note the duration of the assignment and who you worked with, and submit that PR link in Canvas.
 
 See previous instructions, if you'd like to review the steps.
