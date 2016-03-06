@@ -47,6 +47,13 @@ Now duplicate the starter code, find those `TODO` items in the source code, and 
 1. Take some time to read through the code. There is lots there, and it's dense. Do some code review together.
 1. Use the Atom "Find in Project" feature to locate all the TODO items.
 1. Work through one or two TODO items, testing your code as you go, until you are happy with how it's working.
+1. In your terminal type `git status` to view the files that you have changed. You should only see the files that you have worked on.
+1. Type `git add file1 file2` where file1, file2, etc. are the files that you have changed.
+1. Type `git status` to view the files that have been added to your commit. You should only see the files that you worked on.
+1. Type `git diff --staged` to view the differences between the previous version and the staged version of your file.
+1. Type `git commit -m "Some meaningful message"` where Some meaningful message is a message that explains your commit.
+1. Type `git status` to make sure there is nothing to commit.
+1. Type `git push origin class-02` to push the class-02 branch changes to your forked repo on GitHub.
 
 ## Switch roles
 1. Driver: On GitHub, Add your navigator as a collaborator to your origin repo.
