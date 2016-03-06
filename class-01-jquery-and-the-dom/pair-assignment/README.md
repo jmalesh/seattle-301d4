@@ -43,6 +43,13 @@ Now find those `TODO` items in the code, and tackle one of them.
 1. Type `atom .` to open the new folder as a project in Atom.
 1. Use the Atom "Find in Project" feature to locate all the TODO items.
 1. Work through one or two TODO items, testing your code as you go, until you are happy with how it's working.
+1. In your terminal, change directory into the root directory for your repo.
+1. Type `git status` to view the files that you have changed. You should only see the files that you have worked on.
+1. Type `git add file1 file2` where file1, file2, etc. are the files that you have changed.
+1. Type `git status` to view the files that have been added to your commit. You should only see the files that you worked on.
+1. Type `git commit -m "Some meaningful message"` where Some meaningful message is a message that explains your commit.
+1. Type `git status` to make sure there is nothing to commit.
+1. Type `git push origin master` to push the changes to your forked repo.
 
 ## Switch roles
 1. Driver: On GitHub, Add your navigator as a collaborator to your origin repo.
