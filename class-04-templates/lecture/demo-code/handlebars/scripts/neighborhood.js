@@ -5,8 +5,8 @@ function Neighborhood (opts) {
 };
 
 Neighborhood.prototype.toHtml = function() {
-
-  var template = Handlebars.compile($('#neighborhood-template').text());
+  var source = $('#neighborhood-template').html()
+  var template = Handlebars.compile(source);
   return template(this);
 };
 
