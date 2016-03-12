@@ -29,6 +29,7 @@ Here is a recommended workflow:
 1. Use this command in the root of your forked repo, so that it knows about the upstream repo:
   - `git remote add upstream git-url-here`
   - (replace `git-url-here` with the proper git-URL of the codefellows upstream repo).
+
 1. Now, you can sync changes from the upstream repo to your local master branch whenever you need them (do this at least daily):
   - `git pull upstream master`
 
@@ -53,7 +54,9 @@ Now find those `TODO` items in the code, and tackle one of them.
 
 ## Switch roles
 1. Driver: On GitHub, Add your navigator as a collaborator to your origin repo.
+
 1. Navigator: You can now clone the driver's fork, to your own local dev environment (if you haven't already, create a main "301" directory that will be the parent directory for your own forked repo, and a "navigator" directory created within this main "301" directory - **not your repo directory** - that will now contain your partner's repo, and future partner repos). Since you are now a collaborator, you can `pull` and `push` changes to and from `orgin`.
+
 1. Switch roles: The new driver now opens the code in Atom (see above), and has hands on the keyboard to work through the next one or two TODO items.
 
 ## Submit your assignment
