@@ -1,23 +1,11 @@
 # Assignment for Class 10 - Pair Project
 
-Apply what you've learned. With a pair, dive into a new code base. Learn your way around, and refactor the app with the principles you've learned over the past 2 weeks.
+Apply what you've learned. With a pair, dive into a new code base and learn your way around.  You will need to perform a detailed code review on your pair's portfolio and vice-versa.  Upon completion of the code review, it's time to refactor!
 
-## Pairing
-Work as collaborators on a single repo.
-1. Make a single fork of the project you are working on.
-- Add your pair as collaborator.
-- Alternate driver/navigator roles with each major feature.
-- Create, review, and merge a Pull Request for each feature, as you switch roles.
+## Technical Requirements
 
-
-## User Stories
-Write your own user stories as you explore the new code base.
-
-## Technical Requirements and Grading Rubric
- - Use jQuery for all DOM and event listener code.
- - Make good use of SMACSS principles.
- - Use templates wherever possibile.
- - Use mobile-first principles where you can.
- - Make the site responsive, for mobile and desktop.
- - Persist any user-generated data and user selections.
- - Use AJAX to load any significant data sources.  - Cache data where appropriate.
+- Begin this process by performing a code review on your pair's portfolio assignment.  You should be the driver and will need to clone down your pair's portfolio.
+- Your code review should include comments (or issues) with a brief technical description that describes your perspective on how any modifications should be approached.
+- Be sure to approach your comments and issues with a "what" and "why" and let your pair determine the "how".
+- Remember: A good code review is about perspective, understanding, and iteration.  Tone can be difficult to portray when doing a detailed code review so be sure to point out positive areas alongside areas of improvement.
+- Submit a summary about your experience in Canvas with 1-2 tips that you learned from reviewing your pair's code.
