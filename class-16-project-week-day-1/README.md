@@ -49,8 +49,8 @@ Here are some tips on how to organize your team during the launch phase.
  * Once everyone is in agreement, here's how to launch a new  project.
       * Build a basic file scaffold from scratch **as a team**.
       * Initialize a new git repository (in a personal or organization account).
-      * Push it to GitHub and [add your team members as Collaborators](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
-      * Deploy it to Heroku and [add your team members as Collaborators](https://devcenter.heroku.com/articles/sharing).
+      * Push it to GitHub and (optional) [add your team members as Collaborators](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
+      * Deploy it to Heroku and (optional) [add your team members as Collaborators](https://devcenter.heroku.com/articles/sharing).
 
 Make a plan, and get to work!
 ![horse_fight](https://cloud.githubusercontent.com/assets/12869788/14068131/833f6dc0-f42e-11e5-9e29-477ed5863641.png)
