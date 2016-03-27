@@ -6,7 +6,7 @@ For your final project, your task is to work with a team to build a web site tha
 **Rules:**
 
 Your team must adhere to the following requirements.
-* There can be no more than 4 people per team.
+* There can be no more than 5 people per team.
 * Each person must make meaningful contributions in HTML, CSS, and JavaScript.
 * Your web site must have at least 3 interlinked pages and clear navigation.
 * Your web site must have at least 2 pages that accept and process user input.
