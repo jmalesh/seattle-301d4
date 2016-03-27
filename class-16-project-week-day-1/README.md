@@ -53,3 +53,4 @@ Here are some tips on how to organize your team during the launch phase.
       * Deploy it to Heroku and [add your team members as Collaborators](https://devcenter.heroku.com/articles/sharing).
 
 Make a plan, and get to work!
+![horse_fight](https://cloud.githubusercontent.com/assets/12869788/14068131/833f6dc0-f42e-11e5-9e29-477ed5863641.png)
