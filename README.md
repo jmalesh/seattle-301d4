@@ -35,7 +35,7 @@ Assignments are submitted using a professional-grade git-flow. If you haven't do
 
 If you haven't already, install [Atom](https://atom.io). If you have used an advanced text editor like Sublime Text, then Atom will feel familiar to you. Atom is free, open-source, cross-platform, and has a wide array of useful plug-ins available. Please use Atom during Code 301. (And yes...if you are proficient with another text editor that you *love*, you may use that instead)
 
-[Atom's documentation](https://atom.io/docs/latest) is top-notch. Review it now to familiarize yourself with the basics. Make sure you're looking at the docs for the latest version. If you find that you are unable to call `atom` in the terminal, you may need to enable shell commands through Atom by first opening it through your graphical desktop interface, and selecting `Install Shell Commands` in the drop-down menu.
+[Atom's documentation](https://atom.io/docs/latest) is top-notch. Review it now to familiarize yourself with the basics. Make sure you're looking at the docs for the latest version. If you find that you are unable to call atom in the terminal, you may need to enable shell commands through Atom by first opening it through your graphical desktop interface, and selecting `Install Shell Commands` in the drop-down menu.
 
 ## Install Node
 
@@ -44,12 +44,20 @@ If you haven't already, install [Atom](https://atom.io). If you have used an adv
 #### Linux instructions
 
   To install Node, open your Terminal, and copy and paste the following line, then hit Enter:
+  
+  `apt-get install nodejs`
+  
+  If this did not work, try the following:
 
   `curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -`
 
   It will churn away for a while, and then once it's done you can run the following command:
 
   `sudo apt-get install nodejs`
+  
+  If, once again, you did not achieve success, try [these instructions to build from source](https://gist.github.com/toastynerd/d3e563522977f6750c32).
+  
+  
 
 #### Mac instructions
 
