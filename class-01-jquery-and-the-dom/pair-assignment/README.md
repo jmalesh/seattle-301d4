@@ -35,6 +35,7 @@ Here is a recommended workflow:
 
 1. Now, you can sync changes from the upstream repo to your local master branch whenever you need them (do this at the beginning of each day):
   - `git pull upstream master`
+  - `git checkout -b class-00` (for today, class-01)
 
 ## Write code together
 
