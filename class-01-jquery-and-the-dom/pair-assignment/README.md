@@ -28,7 +28,7 @@ Here is a recommended workflow:
 1. Your **forked repo** on GitHub will be your "origin" repo. Clone YOUR FORK to your local development environment:
 <li> Create a new directory named "301" - `mkdir 301/` (This will be your parent 301 directory and set you up for organizational success!)
 <li>`cd 301/`
-<li>`git clone your-forked-301-repo-url my-forked-301` 
+<li>`git clone your-forked-301-repo-url my-forked-301` (where the first argument after `clone` is your actual forked github repo URL, and the second argument here explicitly saves your forked repo name as 'my-forked-301' so you know exaclty what it is).
 1. Use this command in the root of your forked repo, so that it knows about the upstream repo:
   - `git remote add upstream codefellows-git-url-here`
   - (replace `codefellows-git-url-here` with the proper GitHub URL of the codefellows upstream repo, **not** your forked repo).
