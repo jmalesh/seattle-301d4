@@ -33,7 +33,7 @@ Here is a recommended workflow:
   - `git remote add upstream codefellows-git-url-here`
   - (replace `codefellows-git-url-here` with the proper GitHub URL of the codefellows upstream repo, **not** your forked repo).
 
-1. Now, you can sync changes from the upstream repo to your local master branch whenever you need them (do this at least daily):
+1. Now, you can sync changes from the upstream repo to your local master branch whenever you need them (do this at the beginning of each day):
   - `git pull upstream master`
 
 ## Write code together
