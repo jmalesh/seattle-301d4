@@ -38,6 +38,7 @@ Here is a recommended workflow, if you haven't already set up a fork to work fro
 1. Now, you can sync changes from the upstream repo to your local master branch whenever you need them (do this at the beginning of each day):
   - `git pull upstream master`
   - `git checkout -b class-00` (for today, class-02)
+ 
 ## Write code together
 
 Now find those `TODO` items in the code, and tackle one of them.
