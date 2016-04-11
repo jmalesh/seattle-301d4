@@ -38,9 +38,6 @@ Here is a recommended workflow:
 Now find those `TODO` items in the code, and tackle one of them.
 
 1. Driver: In your terminal, change directory into the `pair-assignment` folder.
-1. Copy the starter code folder to a new folder named for your pair:
- - `cp -r starter-code/ sabrina-chris/`
-1. Now cd into that new pairs name folder. This is where you will write code.
 1. Type `atom .` to open the new folder as a project in Atom.
 1. Use the Atom "Find in Project" feature to locate all the TODO items.
 1. Work through one or two TODO items, testing your code as you go, until you are happy with how it's working.
