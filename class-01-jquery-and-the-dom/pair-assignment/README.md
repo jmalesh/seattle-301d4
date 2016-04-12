@@ -25,23 +25,25 @@ The workflow may take a little getting used to, if you haven't done pairing befo
 Here is a recommended workflow:
 
 1. Driver: fork this repository to your own account. This original repo (the one at `github.com/codefellows`) is the "upstream" repo.
-1. Your **forked repo** on GitHub will be your "origin" repo. Clone YOUR FORK to your local development environment (we suggest cloning into a new directory named "301" - `mkdir 301/` - which will be your parent 301 directory and set you up for organizational success!).
+1. Your **forked repo** on GitHub will be your "origin" repo. Clone YOUR FORK to your local development environment:
+<li> Create a new directory named "301" - `mkdir 301/` (This will be your parent 301 directory and set you up for organizational success!)
+<li>`cd 301/`
+<li>`git clone your-forked-301-repo-url my-forked-301` (where the first argument after `clone` is your actual forked github repo URL, and the second argument here explicitly saves your forked repo name as 'my-forked-301' so you know exaclty what it is).
 1. Use this command in the root of your forked repo, so that it knows about the upstream repo:
-  - `git remote add upstream git-url-here`
-  - (replace `git-url-here` with the proper git-URL of the codefellows upstream repo).
+  - `git remote add upstream codefellows-git-url-here`
+  - (replace `codefellows-git-url-here` with the proper GitHub URL of the codefellows upstream repo, **not** your forked repo).
 
-1. Now, you can sync changes from the upstream repo to your local master branch whenever you need them (do this at least daily):
+1. Now, you can sync changes from the upstream repo to your local master branch whenever you need them (do this at the beginning of each day):
   - `git pull upstream master`
+  - `git checkout -b class-00` (for today, class-01)
 
 ## Write code together
 
 Now find those `TODO` items in the code, and tackle one of them.
 
 1. Driver: In your terminal, change directory into the `pair-assignment` folder.
-1. Copy the starter code folder to a new folder named for your pair:
- - `cp -r starter-code/ sabrina-chris/`
-1. Now cd into that new pairs name folder. This is where you will write code.
-1. Type `atom .` to open the new folder as a project in Atom.
+2. Change directory into the `starter-code` folder.
+1. Type `atom .` to open this folder as a project in Atom.
 1. Use the Atom "Find in Project" feature to locate all the TODO items.
 1. Work through one or two TODO items, testing your code as you go, until you are happy with how it's working.
 1. In your terminal type `git status` to view the files that you have changed. You should only see the files that you have worked on.

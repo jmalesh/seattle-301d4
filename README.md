@@ -112,6 +112,7 @@ For this next part, you will have Atom's package manager **apm** install some pa
 You should get two success messages while it installs the linter and linter-eslint packages.
 
 ### Verify the Atom packages installation
+
 Enter the following into your Terminal:
 
 `apm ls`
@@ -119,5 +120,13 @@ Enter the following into your Terminal:
  ![](http://i.imgur.com/Jlv6LeP.png)
 
  You should get a long list and at the end you should get a list of packages you installed for Atom. Linter and linter-eslint should be on that list.
+ 
+##Create and setup 301 directory structure
+ 
+ - Navigate within your terminal to your Projects folder (or an equivalent, familiar, and easy to access folder).
+ - `mkdir 301` - this will be your parent folder to house your **fork** of the class repo.
+ - `cd 301`
+ - `mkdir navigator` - we value pair programming! On days where you are the navigator, you will clone your partner's fork of the class repo here.
+ - While you are here on GitHub, let's fork this repository. Yes, **this** repo you are currently on! Click on the `Fork` button, and on the resulting page copy the link to your brand new fork.
 
 Congrats! You're all done.
