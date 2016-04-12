@@ -4,4 +4,6 @@ Now's a good time to recap what we've covered so far. Then, we'll build an artic
 
 Follow along with the in-class workshop. When you are done, you should be able to add new articles to the blog.
 
+##  Notes (Key Terms)
+
 ## Class Videos
