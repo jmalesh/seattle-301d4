@@ -3,7 +3,5 @@ Yay, events with jQuery!
 #  Notes (Key Terms)
 
 # Class videos
-- [Part 1/4]
-- [Part 2/4]
-- [Part 3/4]
-- [Part 4/4]
+- [class-02 playlist] (https://www.youtube.com/watch?v=JEu5g3IZiUo&list=PLVngfM2hsbi8gIVLWmnvSc975LAPYInrA&index=5)
+
