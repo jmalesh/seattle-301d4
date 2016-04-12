@@ -3,4 +3,5 @@ Yay, events with jQuery!
 #  Notes (Key Terms)
 
 # Class videos
-- <a href="https://www.youtube.com/watch?v=JEu5g3IZiUo&list=PLVngfM2hsbi8gIVLWmnvSc975LAPYInrA&index=5" target="_blank">class-02 playlist</a>
+
+- [class-02 playlist]({{< relref "https://www.youtube.com/watch?v=JEu5g3IZiUo&list=PLVngfM2hsbi8gIVLWmnvSc975LAPYInrA&index=5" >}})
