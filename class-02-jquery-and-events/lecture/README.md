@@ -4,4 +4,4 @@ Yay, events with jQuery!
 
 # Class videos
 - [class-02 playlist] (https://www.youtube.com/watch?v=JEu5g3IZiUo&list=PLVngfM2hsbi8gIVLWmnvSc975LAPYInrA&index=5)
-
+- <a href="https://www.youtube.com/watch?v=JEu5g3IZiUo&list=PLVngfM2hsbi8gIVLWmnvSc975LAPYInrA&index=5" target="_blank">class-02 playlist</a>
