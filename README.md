@@ -17,9 +17,11 @@ Week 4     | Week 7 and 8 | Your Project
 
 ## Slides from class
 
-Slides will be placed in each class' lecture-code subdirectory after they are presented.
+- Slides will be placed in each class' lecture-code subdirectory after they are presented.
 
-Slides will be in PDF format with presenter notes for re-viewing.
+## Videos
+
+- [YouTube Playlist](https://www.youtube.com/playlist?list=PLVngfM2hsbi8gIVLWmnvSc975LAPYInrA)
 
 ## Assignments
 
