@@ -1,5 +1,7 @@
 # jQuery & Events
 
+## Slides
+
 ##  Notes (Key Terms)
 
 ## Class videos
