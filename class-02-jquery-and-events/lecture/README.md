@@ -2,6 +2,8 @@
 
 ## Slides
 
+[Download: jQuery & Events](https://github.com/codefellows/seattle-301d3/files/217507/301.-.jQuery.Events.pdf)
+
 ##  Notes (Key Terms)
 
 ## Class videos
