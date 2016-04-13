@@ -1,1 +1,3 @@
-#  Notes (Key Terms)
+# Responsive & Mobile-First Design
+
+##  Notes (Key Terms)
