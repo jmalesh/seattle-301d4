@@ -2,6 +2,8 @@
 
 ## Slides
 
+[class-01 jQuery & DOM](https://github.com/codefellows/seattle-301d3/files/217499/301.-.DOM.jQuery.pdf)
+
 ##  Notes (Key Terms)
 
 - Agile Development - process of implementing features valuing iteration. Different from the “Waterfall Process (here’s work, do it). Individuals and interactions, responding to change, sprints (defined period of time for accomplishing tasks or project goals). 
