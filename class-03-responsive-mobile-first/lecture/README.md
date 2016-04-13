@@ -15,5 +15,4 @@
 
 ##  Videos
 
-## Class videos
 - [class-03 playlist](https://www.youtube.com/watch?v=4p5mH_pF-tY&list=PLVngfM2hsbi8gIVLWmnvSc975LAPYInrA&index=9&nohtml5=False)
