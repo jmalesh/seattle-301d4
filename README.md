@@ -17,7 +17,7 @@ Week 4     | Week 7 and 8 | Your Project
 
 ## Slides from class
 
-- Slides will be placed in each class' lecture-code subdirectory after they are presented.
+- Slides will be placed in each class' lecture subdirectory after they are presented.
 
 ## Videos
 
