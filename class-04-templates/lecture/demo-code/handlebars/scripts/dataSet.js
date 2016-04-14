@@ -1,4 +1,4 @@
-neighborhoodData = [
+neighborhoodDataSet = [
   {
     name:        'Fremont',
     city:        'Seattle',
