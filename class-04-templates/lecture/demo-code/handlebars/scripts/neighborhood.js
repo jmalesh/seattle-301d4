@@ -5,15 +5,15 @@ function Neighborhood (opts) {
 };
 
 Neighborhood.prototype.toHtml = function() {
-  var source = $('#neighborhood-template').html()
-  var template = Handlebars.compile(source);
+  var $source = $('#neighborhood-template').html();
+  var template = Handlebars.compile($source);
   return template(this);
 };
 
-neighborhoodData.forEach(function(obj) {
-  neighborhoods.push(new Neighborhood(obj));
+neighborhoodDataSet.forEach(function(neighborhoodObject) {
+  neighborhoods.push(new Neighborhood(neighborhoodObject));
 });
 
-neighborhoods.forEach(function(obj){
-  $('#neighborhoods').append(obj.toHtml())
+neighborhoods.forEach(function(ourNewInstantiatedNeighborhoodObject){
+  $('#neighborhoods').append(ourNewInstantiatedNeighborhoodObject.toHtml());
 });
