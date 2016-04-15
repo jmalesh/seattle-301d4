@@ -64,25 +64,43 @@ articleView.setTeasers = function() {
 
 articleView.initNewArticlePage = function() {
   // TODO: Ensure the main .tab-content area is revealed. We might add more tabs later.
-
+  $('.tab-content').show();
   // TODO: The new articles we create will be copy/pasted into our source data file.
   // Set up this "export" functionality. We can hide it for now, and show it once we
   // have data to export. Also, let's add focus event to help us select the JSON.
-
+  $('#export-field').hide();
+  $('#article-json').on('focus', function() {
+    $(this).select();
+  });
   // TODO: Add an event handler to update the preview and the export field if any inputs change.
+  $('#new-form').on('change', 'input', 'textarea', articleView.create);
 };
 
 articleView.create = function() {
-  // TODO: Set up a var to hold the new article we are creating.
-  // Clear out the #articles element, so we can put in the updated preview
+  // TODO: Clear out the #articles element, so we can put in the updated preview
+  $('#article-preview').empty();
 
   // TODO: Instantiate an article based on what's in the form fields:
+  var formArticle = new Article({
+    title: $('#article-title').val(),
+    author: $('#article-author').val(),
+    authorUrl: $('#article-author-url').val(),
+    category: $('#article-category').val(),
+    body: $('#article-body').val(),
+    publishedOn: $('#article-published:checked').length ? new Date() : null
+  });
 
   // TODO: Use our interface to the Handblebars template to put this new article into the DOM:
+    $('#article-preview').append(formArticle.toHtml());
 
   // TODO: Activate the highlighting of any code blocks:
+    $('pre code').each(function(i, block) {
+      hljs.highlightBlock(block);
+    });
 
   // TODO: Export the new article as JSON, so it's ready to copy/paste into blogArticles.js:
+    $('#export-field').show();
+    $('#article-json').val(JSON.stringify(formArticle) + ',');
 };
 
 
