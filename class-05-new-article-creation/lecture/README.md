@@ -7,3 +7,7 @@ Follow along with the in-class workshop. When you are done, you should be able t
 ##  Notes (Key Terms)
 
 ## Class Videos
+
+- [Python Lecture](https://www.youtube.com/watch?v=wgnG-F6PBHI&index=17&list=PLVngfM2hsbi8gIVLWmnvSc975LAPYInrA)
+- [Forms Lecture](https://www.youtube.com/watch?v=SFdxmSkQBVA&list=PLVngfM2hsbi8gIVLWmnvSc975LAPYInrA&index=18)
+
