@@ -10,4 +10,4 @@ For your portfolio, pair up to do some code review with your classmates.
  - HTML -> Markdown conversion: https://github.com/chjj/marked
  - Syntax highlighting: https://github.com/isagalaev/highlight.js
 
-## Class Videos
+
