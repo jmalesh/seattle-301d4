@@ -77,7 +77,7 @@ Article.getAll = function() {
 // TODO: Chain together a `map` and a `reduce` call to get a rough count of all words in all articles.
 Article.numWordsAll = function() {
   return Article.all.map(function(article) {
-    return // Grab the words from the `article` `body` (hint: regexp!).
+    return // Grab the words from the `article` `body` (hint: lookup String.prototype.match() and regexp!).
   })
   .reduce(function(a, b) {
     return // Sum up all the values!
