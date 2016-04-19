@@ -67,9 +67,9 @@ Article.fetchAll = function() {
 };
 
 Article.getAll = function() {
-  $.getJSON('/data/hackerIpsum.json', function(data) {
-    Article.loadAll(data);
-    localStorage.hackerIpsum = JSON.stringify(data);
+  $.getJSON('/data/hackerIpsum.json', function(responseData) {
+    Article.loadAll(responseData);
+    localStorage.hackerIpsum = JSON.stringify(responseData);
     articleView.initIndexPage();
   });
 };
