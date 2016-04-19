@@ -57,11 +57,11 @@ Article.fetchAll = function() {
     // TODO: When we don't already have our data, we need to:
     // 1. Retrieve the JSON file from the server with AJAX (which jQuery method is best for this?),
 
-    // 2. Store the resulting JSON data with the .loadAll method,
+    // 2. Store the resulting JSON data with the .loadAll method (inside our jQuery method),
 
-    // 3. Cache it in localStorage so we can skip the server call next time,
+    // 3. Cache it in localStorage so we can skip the server call next time (still inside our jQuery method),
 
-    // 4. And then render the index page (perhaps with an articleView method?).
+    // 4. And then render the index page (perhaps with an articleView method?) (still inside our jQuery method).
 
   }
 }
