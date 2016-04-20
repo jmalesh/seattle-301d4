@@ -1,1 +1,5 @@
-#  Notes (Key Terms)
+# SQL & CRUD Operations
+
+##  Notes (Key Terms)
+
+## Videos
