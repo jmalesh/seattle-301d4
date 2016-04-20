@@ -13,7 +13,7 @@
       .forEach(function(obj) {
         var aZipInstance = new Zip(obj);
         Zip.all.push(aZipInstance);
-        zipCode.insertRecord();
+        aZipInstance.insertRecord();
       });
     });
   }
