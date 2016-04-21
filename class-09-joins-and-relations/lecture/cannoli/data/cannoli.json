@@ -1,0 +1,56 @@
+[
+  {
+    "flavor": "Vannila",
+    "size": "medium",
+    "price": 4.50,
+    "description": "Our staple. This medium-bodied cannoli has everything you ever wanted in a cannoli."
+  },
+  {
+    "flavor": "Tiramisu",
+    "size": "large",
+    "price": 6.50,
+    "description": "Big Italy! This bold cannoli also has a sweet side."
+  },
+  {
+    "flavor": "Dorito",
+    "size": "small",
+    "price": 2.50,
+    "description": "The little chip."
+  },
+  {
+    "flavor": "Vannila",
+    "size": "small",
+    "price": 2.50,
+    "description": "Just a sample of greatness."
+  },
+  {
+    "flavor": "Dorito",
+    "size": "large",
+    "price": 6.50,
+    "description": "A chip or two on its shoulder, watch out!"
+  },
+  {
+    "flavor": "Tiramisu",
+    "size": "small",
+    "price": 2.50,
+    "description": "Leave the judgement, take the cannoli."
+  },
+  {
+    "flavor": "Vannila",
+    "size": "large",
+    "price": 6.50,
+    "description": "My personal favorite."
+  },
+  {
+    "flavor": "Dorito",
+    "size": "medium",
+    "price": 4.50,
+    "description": "Not your typical dorito."
+  },
+  {
+    "flavor": "Tiramisu",
+    "size": "medium",
+    "price": 4.50,
+    "description": "Il mio bisnonno era da Fano."
+  }
+]
