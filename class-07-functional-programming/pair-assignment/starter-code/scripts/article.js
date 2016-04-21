@@ -44,7 +44,7 @@ Article.loadAll = function(dataPassedIn) {
 // ('next' is just a placeholder, but when referenced at the time fetchAll is called will be a 'view' function)
 // that will execute once the loading of articles is done. We do this because we might want
 // to call other view functions, and not just initIndexPage()
-// Now instead of calling articleView.initIndexPage(), we can call the paramter instead.
+// Now instead of calling articleView.initIndexPage(), we can call the parameter instead.
 Article.fetchAll = function(next) {
   if (localStorage.hackerIpsum) {
     $.ajax({
