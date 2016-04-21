@@ -40,12 +40,12 @@ Article.loadAll = function(dataPassedIn) {
 // This function will retrieve the data from either a local or remote source,
 // and process it, then hand off control to the View.
 
-// TODO: Refactor the Article.fetchAll method, and provide it with a parameter of a callback
-// function (for now just a placeholder, but to be referenced at call-time as a "view" function)
+// TODO: Refactoring the Article.fetchAll method, it now accepts a parameter called 'next'
+// ('next' is just a placeholder, but when referenced at the time fetchAll is called will be a 'view' function)
 // that will execute once the loading of articles is done. We do this because we might want
-// to call other view functions, and not just the initIndexPage() that we are replacing.
-// Now, instead of calling articleView.initIndexPage(), we can just run our callback.
-Article.fetchAll = function() {
+// to call other view functions, and not just initIndexPage()
+// Now instead of calling articleView.initIndexPage(), we can call the paramter instead.
+Article.fetchAll = function(next) {
   if (localStorage.hackerIpsum) {
     $.ajax({
       type: 'HEAD',
@@ -54,23 +54,23 @@ Article.fetchAll = function() {
         var eTag = xhr.getResponseHeader('eTag');
         if (!localStorage.eTag || eTag !== localStorage.eTag) {
           localStorage.eTag = eTag;
-          Article.getAll();
+          Article.getAll(); //TODO: pass 'next' into getAll();
         } else {
           Article.loadAll(JSON.parse(localStorage.hackerIpsum));
-          articleView.initIndexPage();
+          articleView.initIndexPage(); //TODO: Replace me with 'next' and call next instead.
         }
       }
     });
   } else {
-    Article.getAll();
+    Article.getAll(); //TODO: pass 'next' into getAll();
   }
 };
 
-Article.getAll = function() {
+Article.getAll = function() { //TODO: getAll now accepts 'next'
   $.getJSON('/data/hackerIpsum.json', function(responseData) {
     Article.loadAll(responseData);
     localStorage.hackerIpsum = JSON.stringify(responseData);
-    articleView.initIndexPage();
+    articleView.initIndexPage(); //TODO: Replace me with 'next' and call next instead.
   });
 };
 
