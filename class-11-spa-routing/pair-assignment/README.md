@@ -10,7 +10,7 @@ We are now building a true Single-Page App, so clicking links within the app sho
 
 See a [working deployed version](https://cf-mvc-blog--class11.aerobatic.io/) of the app as a target reference.
 
-## User Stories: MVP
+## TODOs: User Stories: MVP
  1. As a developer, I want an articleController, so that I can group together actions related to the article resource.
   - Move the functionality from the last script tag in index.html into the articlesController.js file.
   - When the `/` route is requested, only the #articles section should be visible to the user.
