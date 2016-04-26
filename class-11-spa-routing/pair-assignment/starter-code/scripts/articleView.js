@@ -105,6 +105,10 @@
   };
 
   articleView.initIndexPage = function() {
+    // TODO: Help! This anonymous callback within the Article.all.forEach method
+    //  will run every time page routes to home and calls the initIndexPage.
+    //  Let's ensure this function only runs once! Wrap some conditional logic
+    //  around this forEach: 
     Article.all.forEach(function(a){
       $('#articles').append(a.toHtml());
     });
