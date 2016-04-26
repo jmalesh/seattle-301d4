@@ -40,20 +40,32 @@ expect(
    Hint: read the Math.random description on MDN.
   */
 
-  var favoriteAnimals = ['elephant', 'penguin', 'eagle', 'camel'];
+  var favoriteAnimals = ['elephants', 'penguins', 'eagles', 'camels'];
   var nextAnimal;
 
   // TODO:
-  // Assign one of your favorite animals to nextAnimal using Math.random() to pick
+  // Assign one of your favorite animals to nextAnimal using Math.random() to pick.
+  // Your code goes here:
+  var pickAnumber;
+  console.log(nextAnimal);
+  pickAnumber = Math.floor(Math.random() * favoriteAnimals.length);
+  nextAnimal = favoriteAnimals[-1];
+  console.log(nextAnimal);
 
-  // your code goes here
+
 
   // TODO:
   // Write a test! Use the `expect()` function to ensure that an element in
   //  the favoriteAnimals array was assigned to nextAnimal. Remember to:
   //  pass in your expression, and write a failure and a success message.
 
-
+  expect (
+    favoriteAnimals.some(function(animal) {
+      return animal === nextAnimal
+    }),
+    'No animal selected! Zoo has now closed :( ',
+    'Hooray! We get to see the ' + nextAnimal + ' next!'
+  );
 
   /* ===================================================================
   ---------------------- BONUS! Hungry Lion ----------------------------
@@ -81,10 +93,12 @@ expect(
   */
 
 
-  expect(typeof(tooHungryDay) === 'number'), 'tooHungryDay should be a number but instead is type of ' + typeof(tooHungryDay),
-    'the lion appears to be too hungry after ' + tooHungryDay + ' days...');
+  expect(
+    typeof(tooHungryDay) === 'number',
+    'tooHungryDay should be a number but instead is type of ' + typeof(tooHungryDay),
+    'The lion appears to be too hungry after ' + tooHungryDay + ' days...');
 
   // TODO:
   // Write a test expecting that tooHungryDay falls within an acceptable answer
   // based on the number of days available in the array. Remember to:
-  //  pass in your expression, and write a failure and a success message.
+  // pass in your expression, and write a failure and a success message.
