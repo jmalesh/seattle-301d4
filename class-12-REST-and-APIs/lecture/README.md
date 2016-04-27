@@ -7,6 +7,8 @@
 var a = 3;    
 var b = a;
 console.log(b); // 3
+var b = 5;
+console.log(a); // 3
 ```  
 ``` javascript  
 var codefellows = {
