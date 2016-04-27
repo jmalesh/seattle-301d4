@@ -1,5 +1,7 @@
 #  Notes (Key Terms)
 
+- [SOAP vs REST](http://blog.smartbear.com/apis/understanding-soap-and-rest-basics/)
+
 ## Pass by Value vs Pass by Reference
 ``` javascript
 var a = 3;    
