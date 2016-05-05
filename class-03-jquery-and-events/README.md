@@ -1,4 +1,4 @@
-# Assignment for Class 2 - jQuery and Events
+# Class 3 - jQuery and Events
 
 Today we will work on adding a very common feature of web pages: single-page tabs.
 
