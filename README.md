@@ -21,7 +21,7 @@ Week 4     | Week 7 and 8 | Your Project
 
 ## Videos
 
-- [YouTube Playlist](https://www.youtube.com/playlist?list=PLVngfM2hsbi8gIVLWmnvSc975LAPYInrA)
+- [YouTube Playlist Coming Soon!](about:blank)
 
 ## Assignments
 
