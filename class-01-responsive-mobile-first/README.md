@@ -1,4 +1,4 @@
-# Class 3 - Mobile-First / Responsive Design and SMACSS
+# Class 1 - Mobile-First / Responsive Design and SMACSS
 
 Let's develop some mobile/responsive super-powers!
 
