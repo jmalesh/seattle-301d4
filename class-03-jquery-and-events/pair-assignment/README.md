@@ -1,8 +1,8 @@
-# Responsive Web Apps & SMACSS
+# jQuery Events in the View
 
-Work with the provided starter code to make the Blog web app mobile-first responsive.
+Work with the provided starter code to add event handling to a basic Blog web site.
 
-The code has unfinished features. Your help is needed to complete it!
+The code has unfinished features. Your help is needed to complete it! The blog should end up looking [something like this](http://hijk.it/image/1C3V1S1r3H1n/Screen%20Shot%202015-11-23%20at%2012.21.45%20PM.png).
 
 Search through the code for:
 
@@ -12,25 +12,13 @@ comments, where features should be. Replace the comments and any related pseudo-
 
 Work in pairs. Take turns as "driver" and "navigator".
 
-## TODOs: MVP
-  1. Start by reviewing the existing code. What changed from yesterday? Why did it change?
-  1. Set up the viewport and fluid media rules so content fits on mobile devices.
-  1. Add a "Hamburger" menu button, that reveals the nav links when tapped on a mobile device.
-
-[Video: Mobile Testing Tip for Your Phone] (https://www.youtube.com/watch?v=2t4E_tc8TKM)
-
-# TODOs: Stretch Goals:
-  1. Use media queries to re-style the header and navigation on desktop-width screens. Nav should be tab-like links on one row.
-
-The usual workflow instructions follow...
-
 ## Getting started with pair programming
 
 Take a moment to shake hands and introduce yourselves.
 
-You and your pair may have different experience levels, which is normal. You'll have opportunities to both teach and learn from your pair. Keep an open mind, and always be kind.
+You and your pair will have different experience levels, which is normal. You'll have opportunities to both teach and learn from your pair. Keep an open mind, and always be kind.
 
-The workflow may take a little getting used to, so give yourself time to work through any git issues (aka: "gituations") that arise.
+The workflow may take a little getting used to, if you haven't done pairing before, so give yourself time to work through any git issues (aka: "gituations") that arise.
 
 ## Setup your repo
 
@@ -49,8 +37,8 @@ Here is a recommended workflow, if you haven't already set up a fork to work fro
 
 1. Now, you can sync changes from the upstream repo to your local master branch whenever you need them (do this at the beginning of each day):
   - `git pull upstream master`
-  - `git checkout -b class-00` (for today, class-03)
-
+  - `git checkout -b class-00` (for today, class-02)
+ 
 ## Write code together
 
 Now find those `TODO` items in the code, and tackle one of them.
@@ -65,14 +53,18 @@ Now find those `TODO` items in the code, and tackle one of them.
 1. Type `git diff --staged` to view the differences between the previous version and the staged version of your file.
 1. Type `git commit -m "Some meaningful message"` where Some meaningful message is a message that explains your commit.
 1. Type `git status` to make sure there is nothing to commit.
-1. Type `git push origin class-03` to push the class-03 branch changes to your forked repo on GitHub.
+1. Type `git push origin class-02` to push the class-02 branch changes to your forked repo on GitHub.
+1. On GitHub, add your navigator as a collaborator to you forked repo. 
 
 ## Switch roles
-1. Driver: On GitHub, Add your navigator as a collaborator to your origin repo.
 
-1. Navigator: You can now clone the driver's fork, to your own local dev environment (if you haven't already, create a main "301" directory that will be the parent directory for your own forked repo, and a "navigator" directory created within this main "301" directory - **not your repo directory** - that will now contain your partner's repo, and future partner repos). Since you are now a collaborator, you can `pull` and `push` changes to and from `orgin`.
-
-1. Switch roles: The new driver now opens the code in Atom (see above), and has hands on the keyboard to work through the next one or two TODO items.
+1. Navigator: 
+1. `cd` into your main `301` directory. 
+1. `cd` into your `navigator` directory.
+1. `git clone` your-partner's-repo-url their-name-your-name 
+1. Since you are now a collaborator, you can `pull` and `push` changes to and from `orgin`.
+1. `cd` into this repo followed by `cd` into the corresponding `class-day/pair-assignment/starter-code` directory.
+1. The new driver now opens the code in Atom and has hands on the keyboard to work through the next one or two TODO items.
 
 ## Submit your assignment
 
