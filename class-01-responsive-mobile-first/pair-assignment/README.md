@@ -1,28 +1,42 @@
-# MVC blog
+# Responsive Web Apps & SMACSS
 
-Work with the provided starter code to add structure and functionality a basic Blog web site.
+Work with the provided starter code to make the Blog web app mobile-first responsive.
 
-The code has some unfinished features. Your help is needed to complete it!
+The code has unfinished features. Your help is needed to complete it!
 
 Search through the code for:
 
- `// TODO: ...`
+ `TODO: ...`
 
- comments, where features should be. Replace the comments and any related pseudo-code with real, working code.
+comments, where features should be. Replace the comments and any related pseudo-code with real, working code.
 
 Work in pairs. Take turns as "driver" and "navigator".
+
+## TODOs: MVP
+  1. Start by reviewing the existing code. What changed from yesterday? Why did it change?
+  1. Set up the viewport and fluid media rules so content fits on mobile devices.
+  1. Add a "Hamburger" menu button, that reveals the nav links when tapped on a mobile device.
+
+[Video: Mobile Testing Tip for Your Phone] (https://www.youtube.com/watch?v=2t4E_tc8TKM)
+
+# TODOs: Stretch Goals:
+  1. Use media queries to re-style the header and navigation on desktop-width screens. Nav should be tab-like links on one row.
+
+The usual workflow instructions follow...
 
 ## Getting started with pair programming
 
 Take a moment to shake hands and introduce yourselves.
 
-You and your pair will have different experience levels, which is normal. You'll have opportunities to both teach and learn from your pair. Keep an open mind, and always be kind.
+You and your pair may have different experience levels, which is normal. You'll have opportunities to both teach and learn from your pair. Keep an open mind, and always be kind.
 
-The workflow may take a little getting used to, if you haven't done pairing before, so give yourself time to work through any git issues (aka: "gituations") that arise.
+The workflow may take a little getting used to, so give yourself time to work through any git issues (aka: "gituations") that arise.
 
 ## Setup your repo
 
-Here is a recommended workflow:
+Follow these steps carefully!
+
+Here is a recommended workflow, if you haven't already set up a fork to work from:
 
 1. Driver: fork this repository to your own account. This original repo (the one at `github.com/codefellows`) is the "upstream" repo.
 1. Your **forked repo** on GitHub will be your "origin" repo. Clone YOUR FORK to your local development environment:
@@ -35,15 +49,14 @@ Here is a recommended workflow:
 
 1. Now, you can sync changes from the upstream repo to your local master branch whenever you need them (do this at the beginning of each day):
   - `git pull upstream master`
-  - `git checkout -b class-00` (for today, class-01)
+  - `git checkout -b class-00` (for today, class-03)
 
 ## Write code together
 
 Now find those `TODO` items in the code, and tackle one of them.
 
 1. Driver: In your terminal, change directory into the `pair-assignment` folder.
-2. Change directory into the `starter-code` folder.
-1. Type `atom .` to open this folder as a project in Atom.
+1. Type `atom .` to open the new folder as a project in Atom.
 1. Use the Atom "Find in Project" feature to locate all the TODO items.
 1. Work through one or two TODO items, testing your code as you go, until you are happy with how it's working.
 1. In your terminal type `git status` to view the files that you have changed. You should only see the files that you have worked on.
@@ -52,7 +65,7 @@ Now find those `TODO` items in the code, and tackle one of them.
 1. Type `git diff --staged` to view the differences between the previous version and the staged version of your file.
 1. Type `git commit -m "Some meaningful message"` where Some meaningful message is a message that explains your commit.
 1. Type `git status` to make sure there is nothing to commit.
-1. Type `git push origin class-01` to push the class-01 branch changes to your forked repo on GitHub.
+1. Type `git push origin class-03` to push the class-03 branch changes to your forked repo on GitHub.
 
 ## Switch roles
 1. Driver: On GitHub, Add your navigator as a collaborator to your origin repo.
